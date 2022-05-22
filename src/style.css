@@ -4,7 +4,7 @@ body {
 }
 
 :root {
-    --default: #ffffff;
+    --default: #000000;
     --empty: #acacac;
     --wrong: #b59f3b;
     --right: #538d4e;
@@ -28,7 +28,7 @@ body {
     height: 60px;
     border: 2px solid var(--empty);
     margin: 4px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     display: grid;
     place-items: center;
