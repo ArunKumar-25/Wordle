@@ -1,6 +1,5 @@
 *{
     font-family: 'Open Sans', sans-serif;
-
 }
 
 html,
@@ -9,7 +8,7 @@ body {
 }
 
 :root {
-    --default: #000000;
+    --default: #ffffff;
     --empty: #acacac;
     --wrong: #b59f3b;
     --right: #6baa64;
@@ -34,7 +33,7 @@ body {
     height: 60px;
     border: 2px solid var(--empty);
     margin: 4px;
-    color: rgb(255, 255, 255);
+    color: rgb(24, 24, 24);
     text-transform: uppercase;
     display: grid;
     place-items: center;
