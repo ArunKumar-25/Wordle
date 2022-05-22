@@ -1,12 +1,12 @@
 import express from 'express'
 const app = express()
-const port = 3000
 import fs from 'fs'
 app.get('/', (req, res) => {
     fs.createReadStream('index.html').pipe(res)
 })
 app.use(express.static('src'))
+const port = 80
 
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
   console.log(`Example app listening on port ${port}`)
 })
